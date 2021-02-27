@@ -1,8 +1,5 @@
+const testVar = "Test Variable Is Set";
 
-const testVar = "super test";
-
-class TestClass{
-  constructor(){
-    console.log("TestClass loaded.");
-  }
+function RunTestFunc(){
+  console.log("Test function running.");
 }
