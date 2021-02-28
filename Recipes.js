@@ -8,5 +8,3 @@ function LoadRecipes(){
   }));
    
 }
-
-export default LoadRecipes;
