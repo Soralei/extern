@@ -1,12 +1,14 @@
 /*global AddToRecipes, Recipe*/
 
-function InitializeRecipes(){
-
+try {
+   
    AddToRecipes(new Recipe({
     name: "Kronyxium Core",
     components: [],
     requirements: [],
     craftedAt: "Frost Temple Smithy"
   }));
-
+   
+} catch {
+   console.log("Caught");
 }
