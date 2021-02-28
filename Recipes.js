@@ -1,6 +1,4 @@
-/*global AddToRecipes, Recipe*/
-
-try {
+function LoadRecipes(){
    
    AddToRecipes(new Recipe({
     name: "Kronyxium Core",
@@ -9,6 +7,4 @@ try {
     craftedAt: "Frost Temple Smithy"
   }));
    
-} catch {
-   console.log("Caught");
 }
